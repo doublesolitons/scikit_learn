@@ -6,7 +6,7 @@ import pandas as pd
 #
 # for current_number in tqdm(numbers, desc='Looping over an array'):
 #     time.sleep(2)
-#     print('\n', current_number)
+#     print('\n', current_numbers)
 
 def update_df(df: pd.DataFrame,
               clf: str,
