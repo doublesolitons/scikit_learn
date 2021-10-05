@@ -40,10 +40,11 @@ for weights in ['uniform', 'distance']:
 plt.show()
 
 # ex. 2
+print('---------- Ex. 2 ----------\n')
 X = np.array([[-1, -1], [-2, -1], [-3, -2], [1, 1], [2, 1], [3, 2]])
 y = np.array([1, 1, 1, 2, 2, 2])
 clf = neighbors.NearestCentroid()
 clf.fit(X, y)
-print('---------- Ex. 2 ----------\n')
+# print('---------- Ex. 2 ----------\n')
 print(clf.predict([[-.8, 1]]))
 
